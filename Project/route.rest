@@ -1,0 +1,27 @@
+GET  http://localhost:4500/subscribers
+
+
+###
+GET  http://localhost:4500/subscribers/63c70357e1e5abf90b144f1f
+
+
+###
+POST http://localhost:4500/subscribers
+Content-Type: application/json
+
+{
+    "name": " Linda Botwe",
+    "subcribeToChannel": "I am a mother of TTU"
+}
+
+###
+DELETE  http://localhost:4500/subscribers/63c7d377c921b53195f9f948
+
+
+###
+PATCH   http://localhost:4500/subscribers/63c70357e1e5abf90b144f1f
+Content-Type: application/json
+
+{
+    "name": "Vivian Botwe"
+}
