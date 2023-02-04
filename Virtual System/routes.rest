@@ -1,0 +1,42 @@
+GET http://localhost:5000/virtual_education
+
+###
+GET http://localhost:5000/virtual_education/63dbc6c51520f3b222f4fceb
+
+
+###
+POST  http://localhost:5000/virtual_education/63dbc8691520f3b222f4fcf0
+Content-Type: application/application/json
+ 
+{
+    "email": "VivianDadzi@gmail.c ",
+    "password": "isaacbeee ",
+}
+
+
+
+###
+POST http://localhost:5000/virtual_education
+Content-Type: application/json
+
+{
+    "first_name": " Nana Botwe",
+    "Last_name": "  Banson",
+    "country": "  Ghana",
+    "email": " ike@Botwe.com",
+    "password": " 1234567890"
+ 
+}
+
+
+###
+DELETE  http://localhost:5000/virtual_education/63dbc6c51520f3b222f4fceb
+
+
+###
+PATCH  http://localhost:5000/virtual_education/63dbc8691520f3b222f4fcf0
+Content-Type: application/json
+
+{
+    "password" : "isaacbeeeee"
+}
